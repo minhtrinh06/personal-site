@@ -4,6 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "add-domain": "echo \"minhtrinh.codes\" > build/CNAME",
+    "deploy": "npm run add-domain && gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
