@@ -25,7 +25,6 @@ function App() {
         <p className="bg-gradient-to-r from-emerald-300 to-sky-300 bg-clip-text text-5xl font-black text-transparent selection:bg-transparent">
           Minh Tri Trinh
         </p>
-        <img src={poweredBy} className="mx-auto my-8" alt="powered-by" />
       </header>
     </div>
   );
